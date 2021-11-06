@@ -54,3 +54,14 @@ psql
 \dt
 
 select * from album;
+
+## Lab-13:
+### Related Resources and Integration Testing
+Overview
+The requirement for this lab is how the user can add a song to the specific album by fill the forms.
+
+Router:
+Route to send you to the page that contains songs
+http://localhost:8080/addSong/{title}  
+
+
