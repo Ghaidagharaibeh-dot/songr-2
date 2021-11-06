@@ -1,4 +1,4 @@
-package com.example.songr2.resposity;
-
-public @interface Repositiry  {
-}
+//package com.example.songr2.resposity;
+//
+//public @interface Repositiry  {
+//}

@@ -1,17 +1,14 @@
 package com.example.songr2.resposity;
 
+
 import com.example.songr2.modal.Album;
 import org.springframework.data.jpa.repository.JpaRepository;
-//import org.springframework.data.repository.CrudRepository;
-//import org.springframework.data.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
+@Repository
+public interface AlbumRepository extends JpaRepository<Album, Long> {
 
-@Repositiry
-public interface AlbumRepository extends JpaRepository<Album,Integer> {
+    Album findAlbumByTitle(String title);
+
 
 }
-
-//@Repositiry
-//public interface AlbumRepository extends JpaRepository<Album,Integer> {
-//
-//}
